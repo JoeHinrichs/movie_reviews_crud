@@ -7,7 +7,7 @@ import Controls from './components/Controls';
 import Update from './components/Update';
 
 //const MOVIES_URL = 'http://localhost:3000';
-const MOVIES_URL = 'https://movie-reviews-api-wine.vercel.app/';
+const MOVIES_URL = 'https://movie-reviews-api-wine.vercel.app';
 
 import './App.css'
 
