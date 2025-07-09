@@ -24,7 +24,7 @@ export default function MovieList({ movieData, sortKey, setUpdateKey }: MovieLis
               <td className={'w-[15%] text-center ' + tailwindCommon}>{movie.deegrade}</td>
               <td className={'w-[15%] text-center ' + tailwindCommon}>{movie.joegrade}</td>
               <td className={'w-[15%] text-center ' + tailwindCommon}>{movie.genre}</td>
-              <td className={'w-[7.5%] text-center border border-white border-t-0 bg-gray-700'}><Button buttonLabel='Edit' buttonClick={(e) => {setUpdateKey(movie.id)}}></Button></td>
+              <td className={'w-[7.5%] text-center border border-white border-t-0 bg-gray-700'}><Button buttonLabel='Edit' buttonClick={() => {setUpdateKey(movie.id)}}></Button></td>
             </tr>
           ))}
         </tbody>
