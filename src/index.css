@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+.blue{
+    @apply bg-blue-500 text-white;
+}
+
+.blue-selected{
+    @apply bg-blue-800 text-white;
+}
+
+.pink{
+    @apply bg-pink-500 text-white;
+}
+
+.pink-selected{
+    @apply bg-pink-800 text-white;
+}
